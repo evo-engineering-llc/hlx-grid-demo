@@ -4,6 +4,7 @@ A demonstration of constraint-aware grid restoration under outage conditions.
 
 This project compares baseline restoration behavior with an optimized, distributed restoration strategy that improves recovery outcomes while respecting operational limits.
 
+> Constraint-aware restoration engine demonstration for power grid recovery under operational limits.
 ---
 
 ## ⚡ Core Result
