@@ -1,16 +1,15 @@
 # HLX Grid Restoration Demo
 
-A demonstration of constraint-aware grid restoration under outage conditions.
+Simulation of grid restoration under constrained operating conditions.
 
-This project compares baseline restoration behavior with an optimized, distributed restoration strategy that improves recovery outcomes while respecting operational limits.
+This project compares baseline restoration behavior with an optimized coordination strategy that improves recovery outcomes while respecting operational limits.
 
-> Constraint-aware restoration engine demonstration for power grid recovery under operational limits.
 ---
 
 ## ⚡ Core Result
 
-- Consistent improvement in nodes restored under identical constraints  
-- Capacity-aware restoration (no overload or unrealistic propagation)  
+- Improved restoration outcomes under identical constraints  
+- Capacity-aware recovery (no overload or unrealistic propagation)  
 - Deterministic, reproducible behavior  
 
 ---
@@ -20,7 +19,7 @@ This project compares baseline restoration behavior with an optimized, distribut
 Simulates a large-scale outage and compares:
 
 - Baseline (uncoordinated restoration)  
-- Optimized (HLX-driven restoration)  
+- Coordinated restoration strategy  
 
 ### Example Output
 
@@ -35,8 +34,8 @@ Improvement: +16.24%
 ### What it shows
 
 - Both systems operate under identical constraints  
-- Optimized restoration uses available capacity more efficiently  
-- Recovery improvement emerges from coordination, not additional resources  
+- Improved recovery comes from better coordination  
+- No additional resources are introduced  
 
 ---
 
@@ -65,8 +64,8 @@ Remaining nodes require intervention (topology repair or control recovery)
 
 ### What it shows
 
-- Restoration is not unlimited  
-- System detects when automated recovery reaches its limit  
+- Restoration has natural limits  
+- Automated recovery eventually plateaus  
 - Remaining recovery requires targeted intervention  
 
 ---
@@ -91,25 +90,17 @@ python orchestrator_demo.py
 
 ## 🧭 What This Is
 
-* A demonstration of restoration behavior
-* A comparison of decision strategies under constraints
-* A system-level model of grid recovery dynamics
+* A demonstration of restoration behavior under constraints
+* A comparison of different decision strategies
+* A system-level view of grid recovery dynamics
 
 ---
 
 ## ⚠ Notes
 
 * This repository contains demonstration logic only
-* Internal decision engine and optimization layers are abstracted
-* Results are deterministic and reproducible
-
----
-
-## 🔗 Related Systems
-
-* HLX Delta — data reduction and state reconstruction
-* HLX Adam — structure-conditioned optimization
-* HLX Photo — deterministic reconstruction systems
+* Internal decision mechanisms are abstracted
+* Performance varies depending on system conditions
 
 ---
 
@@ -117,4 +108,4 @@ python orchestrator_demo.py
 
 Evo Engineering LLC
 
-`````
+```
